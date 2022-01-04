@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=IM+Fell+English+SC&family=UnifrakturMaguntia&display=swap");
+
+body,
+html {
+	height: 100%;
+	display: grid;
+	/* font-family: "IM Fell English SC", serif; */
+	color: #212121;
+}
+
+body {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Lucas_Cranach_-_Der_Jungbrunnen_%28Gem%C3%A4ldegalerie_Berlin%29.jpg/2880px-Lucas_Cranach_-_Der_Jungbrunnen_%28Gem%C3%A4ldegalerie_Berlin%29.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	margin: 0;
+    background-repeat: repeat-y;
+}
+
+.blur {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	backdrop-filter: blur(4px);
+	z-index: 1;
+}
+
+.sign {
+	width: 500px;
+	height: 750px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #ffd600;
+	margin: auto;
+	padding: 1em;
+	box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
+	background-image: url(https://etc.usf.edu/clipart/65400/65402/65402_floralborder_lg.gif);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 999;
+}
+.rules {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 450px;
+	width: 300px;
+	transform: translateX(-0.7em) translateY(3em);
+}
+
+h1 {
+	transform: translateY(1.7em) 	translateX(-0.25em);
+	margin: 0;
+	font-size: 48px;
+	font-family: "UnifrakturMaguntia", cursive;
+}
+
+.sign h2 {
+	font-size: 32px;
+}
+
+ol {
+	list-style-type: upper-roman;
+	font-size: 20px;
+	font-family: "IM Fell English SC", serif;
+}
+
+h4 {
+	color: #d50000;
+    font-family: "IM Fell English SC", serif;
+}
