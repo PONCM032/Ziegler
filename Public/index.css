@@ -74,3 +74,7 @@ h4 {
 	color: #d50000;
     font-family: "IM Fell English SC", serif;
 }
+
+.button-padding {
+    padding: 50px;
+}
