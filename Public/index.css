@@ -17,6 +17,10 @@ body {
     background-repeat: repeat-y;
 }
 
+button {
+    align-items: center;
+}
+
 .blur {
 	position: absolute;
 	height: 100vh;
